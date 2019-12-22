@@ -5,27 +5,27 @@ const dataSourceDB = [
   {
     seqNo: 1,
     description: 'I am One',
-    duration: '1000ms'
+    status: 'pending'
   },
   {
     seqNo: 2,
     description: 'I am Two',
-    duration: '2000ms'
+    status: 'expired'
   },
   {
     seqNo: 3,
     description: 'I am Three',
-    duration: '3000ms'
+    status: 'cancelled'
   },
   {
     seqNo: 4,
     description: 'I am Four',
-    duration: '4000ms'
+    status: 'disabled'
   },
   {
     seqNo: 5,
     description: 'I am Five',
-    duration: '5000ms'
+    status: 'completed'
   },
 ];
 
