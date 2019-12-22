@@ -24,7 +24,7 @@
                 'imgRed': lesson.status === 'cancelled' ,
                 'imgGreen': lesson.status === 'completed',
                 'imgOrange': lesson.status === 'pending',
-                'imgGrey': lesson.status === 'disabled'
+                'imgGrey': lesson.status === 'disabled' || lesson.status === 'expired'
               }"></span>
             </mat-cell>
         </ng-container>
